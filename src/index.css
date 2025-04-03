@@ -36,6 +36,10 @@ body {
     font-family: "zentry";
     src: url("/fonts/zentry-regular.woff2") format("woff2");
   }
+  @font-face {
+    font-family: "arcane";
+    src: url("/fonts/Arcane-Nine.otf") format("otf");
+  }
 }
 
 @layer utilities {
