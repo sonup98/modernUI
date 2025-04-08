@@ -30,11 +30,12 @@ const About = () => {
     <div id="about" className="min-h-screen w-screen">
       <div className="relative mb-8 mt-36 flex flex-col items-center gap-5">
         <p className="font-general text-sm uppercase md:text-[10px]">
-          Welcome to Zentry
+        Welcome to the World of Arcane
         </p>
 
         <AnimatedTitle
-          title="Disc<b>o</b>ver the world's <br /> largest shared <b>a</b>dventure"
+          // title="Disc<b>o</b>ver the world's <br /> largest shared <b>a</b>dventure"
+          title="<b>A</b>rcane Chronicles:<br /> Dive into the Chaos a<b>n</b>d Beauty"
           containerClass="mt-5 !text-black text-center"
         />
 
@@ -50,7 +51,7 @@ const About = () => {
       <div className="h-dvh w-screen" id="clip">
         <div className="mask-clip-path about-image">
           <img
-            src="img/about.webp"
+            src="img/pitover.jpg"
             alt="Background"
             className="absolute left-0 top-0 size-full object-cover"
           />
